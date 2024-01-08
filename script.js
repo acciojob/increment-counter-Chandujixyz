@@ -9,7 +9,7 @@
         // Add click event listener to the increment button
         incrementBtn.addEventListener('click', function() {
             // Display the un-incremented value in an alert
-            alert('Current Counter Value: ' + counterValue);
+            alert(counterValue);
 
             // Increment the counter value
             counterValue++;
